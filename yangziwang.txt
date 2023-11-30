@@ -1,3 +1,5 @@
+nacos git:https://github.com/alibaba/nacos.git
+
 nacos打包命令:
 cd nacos/
 mvn -Prelease-nacos -Dmaven.test.skip=true clean install -U  
