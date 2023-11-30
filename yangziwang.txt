@@ -1,0 +1,7 @@
+nacos打包命令:
+cd nacos/
+mvn -Prelease-nacos -Dmaven.test.skip=true clean install -U  
+cd distribution/target/nacos-server-2.3.0/nacos/bin
+
+#非集群模式启动nacos
+startup.cmd -m standalone
